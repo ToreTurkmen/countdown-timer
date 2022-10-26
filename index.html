@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Countdown Timer</h1>
+  <div id="container">
+    
+      <input id="hour" type="number" max="99" min="0" value="00" class="time">
+      <p id="p1" class="semicolon">:</p>
+      <input id="minute" type="number" max="60" min="0" value="00" class="time">
+      <p id="p2" class="semicolon">:</p>
+      <input id="sec" type="number" max="60" min="0" value="00" class="time">
+      <button id="start" class="btn">Start</button>
+      <button id="reset" class="btn">Reset</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
